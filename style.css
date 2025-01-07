@@ -8,9 +8,8 @@
 }
 
 body {
-  height: 100vh;
-  margin: 8rem 0;
-  max-height: auto;
+  height: 100%;
+  margin: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +28,8 @@ header {
 }
 
 .main-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 60% 35%;
   column-gap: 3rem;
   margin-top: 4rem;
 }
@@ -90,19 +90,18 @@ header {
 }
 
 .work-experience {
-  width: 70%;
+  width: 100%;
 }
 
 .heading {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .heading h2 {
   font-weight: 600;
 }
 
-.work-experience hr,
-.skills-competence hr {
+.heading hr {
   width: 19rem;
   color: red;
   margin-top: 0.5rem;
@@ -131,17 +130,16 @@ header {
   align-items: center;
 }
 
-.experience .experience-duration {
-  color: rgba(51, 51, 51, 50%);
-  font-size: 12px;
-}
-
 .experience .company-info {
   margin-bottom: 1rem;
 }
 
 .experience .experience-description {
   font-size: 14px;
+}
+
+.skills-competence {
+  height: fit-content;
 }
 
 .skills-competence .skills ul {
@@ -151,4 +149,66 @@ header {
 
 .skills ul li {
   margin: 0.2rem 0;
+}
+
+.tools {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.tools ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tools ul li {
+  margin-right: 0.5rem;
+}
+
+.tools ul li span {
+  color: red;
+}
+
+.languages {
+  margin-top: 3rem;
+}
+
+.languages ul {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.languages ul li {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2.5rem 1rem 0;
+}
+
+.languages ul li span {
+  font-size: 12px;
+  color: red;
+}
+
+.education h3 {
+  font-weight: 500;
+}
+
+.education h4 {
+  font-weight: 400;
+  color: red;
+}
+
+.education span {
+  color: rgba(51, 51, 51, 50%);
+}
+
+.education-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.duration {
+  color: rgba(51, 51, 51, 50%);
+  font-size: 12px;
 }
