@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 8rem 0;
+  max-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb);
+}
+
+.container {
+  background-color: #fff;
+  width: 50%;
+  padding: 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-container {
+  display: flex;
+  column-gap: 3rem;
+  margin-top: 4rem;
+}
+
+.main-info hr {
+  width: 10rem;
+  color: red;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  border: 2px solid red;
+}
+
+.main-info p {
+  margin-top: 1rem;
+  color: #616161;
+}
+
+.contact-info {
+  display: flex;
+}
+
+.contact-info .contact {
+  display: flex;
+  justify-content: start;
+  height: 11rem;
+}
+
+.contact-info ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  row-gap: 1rem;
+  margin-right: 1rem;
+  text-align: right;
+}
+
+.contact-info ul li {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: #616161;
+}
+
+.contact-info ul li a {
+  color: #616161;
+}
+
+.contact-info ul li i {
+  margin-left: 1rem;
+  color: red;
+}
+
+.contact-info img {
+  height: 14rem;
+  width: 9rem;
+  transform: translateY(-3rem);
+}
+
+.work-experience {
+  width: 70%;
+}
+
+.heading {
+  margin-bottom: 3rem;
+}
+
+.heading h2 {
+  font-weight: 600;
+}
+
+.work-experience hr,
+.skills-competence hr {
+  width: 19rem;
+  color: red;
+  margin-top: 0.5rem;
+}
+
+.experiences {
+}
+
+.experiences .experience {
+  margin-bottom: 3rem;
+}
+
+.experiences .experience h3 {
+  font-weight: 500;
+}
+
+.experiences .experience h4 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #de1d3e;
+}
+
+.experience .experience-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience .experience-duration {
+  color: rgba(51, 51, 51, 50%);
+  font-size: 12px;
+}
+
+.experience .company-info {
+  margin-bottom: 1rem;
+}
+
+.experience .experience-description {
+  font-size: 14px;
+}
+
+.skills-competence .skills ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills ul li {
+  margin: 0.2rem 0;
+}
